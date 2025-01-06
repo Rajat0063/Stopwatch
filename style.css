@@ -18,7 +18,8 @@ body {
     text-transform: capitalize;
   }
   #seconds,
-  #tens {
+  #tens,
+  b {
     font-size: 2em;
   }
   button {
@@ -30,6 +31,7 @@ body {
     border-radius: 5px;
     margin-right: 10px;
     outline: none;
+    transition: .5s ease;
   }
   button:hover {
     background: white;
